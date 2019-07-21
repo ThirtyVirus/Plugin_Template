@@ -1,0 +1,15 @@
+main: thirtyvirus.templatemplate.TemplatePlugin
+version: 1.0
+name: TemplatePlugin
+api-version: 1.13
+
+commands:
+  template:
+    description: Main command for TemplatePlugin. Use /template help for more info
+permissions:
+  template.user:
+    description: Allows player to use the plugin's user features
+    default: true
+  template.admin:
+    description: Allows player to use the plugin's admin features
+    default: op

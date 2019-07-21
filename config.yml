@@ -1,0 +1,15 @@
+# TemplatePlugin for Craftbukkit / Spigot
+# Author: Brandon (ThirtyVirus) Calabrese
+#
+# YouTube:      https://www.youtube.com/channel/UC04QdEl71CFDogk8pzY7Geg
+# Twitter:      https://twitter.com/Thirtyvirus
+# SpigotMC:     https://www.spigotmc.org/members/thirtyvirus.179587/
+
+# FILE: config.yml
+# These are the settings for SimpleSorting. Change whatever you like but do not remove any
+# non-comment lines, as this will result in errors.
+
+plugin-prefix: "&c&l[&5&lSimpleSorting&c&l] &8&l"
+
+# Custom Setting
+custom-setting: false

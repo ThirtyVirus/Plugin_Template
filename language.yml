@@ -1,0 +1,17 @@
+# TemplatePlugin for Craftbukkit / Spigot
+# Author: Brandon (ThirtyVirus) Calabrese
+#
+# YouTube:      https://www.youtube.com/channel/UC04QdEl71CFDogk8pzY7Geg
+# Twitter:      https://twitter.com/Thirtyvirus
+# SpigotMC:     https://www.spigotmc.org/members/thirtyvirus.179587/
+
+# FILE: language.yml
+# This file controls all the messages that this plugin says in the chat. Server
+# owners can use the file to translate or otherwise modify the plugin
+# messages to better support their players.
+
+no-permissions-message: You do not have proper permissions!
+
+not-a-command-message: That is not a command!
+formatting-error-message: Formatting error, check your command syntax!
+no-console-message: You can only execute this command in-game!
