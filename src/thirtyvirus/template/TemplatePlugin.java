@@ -33,8 +33,6 @@ public class TemplatePlugin extends JavaPlugin {
     // customizable settings
     public static boolean customSetting = false;
 
-    public static Map<Player, List<Block>> multisorts = new HashMap<>();
-
     public void onEnable(){
         // load config.yml (generate one if not there)
         loadConfiguration();

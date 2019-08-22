@@ -57,7 +57,10 @@ public class API {
 
     // force open a book
     public static void openBook(ItemStack book, Player player) {
-        if (Version.getVersion().isBiggerThan(Version.v1_8)) BookUtil_1_9.openBook(book, player);
+
+        // test if version greater than 1.14.3 then use 1.8 book
+        if (Version.getVersion().isBiggerThan(Version.v1_14)) BookUtil_1_14_4.openBook(book, player);
+        else if (Version.getVersion().isBiggerThan(Version.v1_8)) BookUtil_1_9.openBook(book, player);
         else BookUtil_1_8.openBook(book, player);
     }
 
