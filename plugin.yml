@@ -1,4 +1,4 @@
-main: thirtyvirus.templatemplate.TemplatePlugin
+main: thirtyvirus.template.TemplatePlugin
 version: 1.0
 name: TemplatePlugin
 api-version: 1.13

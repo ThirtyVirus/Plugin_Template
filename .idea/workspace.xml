@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0ce5c15-c524-4ca8-b606-87a703923e5f" name="Default" comment="Version 1.0.1, made the plugin work 100% in 1.8 - 1.14.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/multiversion/API.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/multiversion/Sound.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/multiversion/Version$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/multiversion/Version.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/multiversion/XMaterial.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/SimpleSorting$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/SimpleSorting.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/commands/Sort.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/events/block/BlockClick.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/events/chat/TabComplete.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/events/inventory/InventoryClick.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/helpers/ActionSound.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/helpers/BookUtil_1_8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/helpers/BookUtil_1_9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/helpers/ItemComparator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/helpers/MenuUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/helpers/ReflectionUtils$DataType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/helpers/ReflectionUtils$PackageType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/helpers/ReflectionUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/helpers/Utilities$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/thirtyvirus/ss/helpers/Utilities.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Simple_Sorting/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/thirtyvirus/multiversion/BookUtil_1_14_4.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/ItemComparator.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thirtyvirus/multiversion/API.java" afterPath="$PROJECT_DIR$/src/thirtyvirus/multiversion/API.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thirtyvirus/multiversion/Version.java" afterPath="$PROJECT_DIR$/src/thirtyvirus/multiversion/Version.java" />
+    <list default="true" id="e0ce5c15-c524-4ca8-b606-87a703923e5f" name="Default" comment="updated a few things after find ing flaws in template making swapperplus">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/API.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/BookUtil_1_14_4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/BookUtil_1_8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/BookUtil_1_9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/ReflectionUtils$DataType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/ReflectionUtils$PackageType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/ReflectionUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/Sound.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/Version.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/XMaterial.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/TemplatePlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/commands/MainPluginCommand.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/events/block/BlockClick.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/events/chat/TabComplete.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/events/inventory/InventoryClick.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/helpers/ActionSound.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/helpers/MenuUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/helpers/Utilities$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/helpers/Utilities.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/META-INF/MANIFEST.MF" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_14_2.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_8_81.xml" afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_9_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Simple_Sorting_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Simple_Sorting_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plugin_Template.iml" afterPath="$PROJECT_DIR$/Plugin_Template.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yml" afterPath="$PROJECT_DIR$/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language.yml" afterPath="$PROJECT_DIR$/language.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.yml" afterPath="$PROJECT_DIR$/plugin.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +54,6 @@
               <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="method#onDisable#0;class#TemplatePlugin#0" expanded="false" />
-                <element signature="method#registerCommands#0;class#TemplatePlugin#0" expanded="false" />
-                <element signature="method#registerEvents#0;class#TemplatePlugin#0" expanded="false" />
                 <element signature="method#loadConfiguration#0;class#TemplatePlugin#0" expanded="false" />
                 <element signature="method#loadLangFile#0;class#TemplatePlugin#0" expanded="false" />
               </folding>
@@ -61,21 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookUtil_1_14_4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/BookUtil_1_14_4.java">
+      <file leaf-file-name="MainPluginCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="API.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/API.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,14 +73,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Version.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/Version.java">
+      <file leaf-file-name="language.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/language.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding>
-                <element signature="method#getIndex#0;class#Version#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,10 +115,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>compara</find>
+      <find>sorting</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -132,17 +144,17 @@
         <option value="$PROJECT_DIR$/src/thirtyvirus/multiversion/ReflectionUtils.java" />
         <option value="$PROJECT_DIR$/src/thirtyvirus/ss/helpers/MenuUtils.java" />
         <option value="$PROJECT_DIR$/src/thirtyvirus/ss/helpers/Utilities.java" />
-        <option value="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" />
-        <option value="$PROJECT_DIR$/language.yml" />
         <option value="$PROJECT_DIR$/src/thirtyvirus/template/events/chat/TabComplete.java" />
         <option value="$PROJECT_DIR$/src/thirtyvirus/template/events/inventory/InventoryClick.java" />
         <option value="$PROJECT_DIR$/src/thirtyvirus/template/events/block/BlockClick.java" />
-        <option value="$PROJECT_DIR$/config.yml" />
-        <option value="$PROJECT_DIR$/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" />
         <option value="$PROJECT_DIR$/src/thirtyvirus/multiversion/BookUtil_1_14_4.java" />
         <option value="$PROJECT_DIR$/src/thirtyvirus/multiversion/API.java" />
         <option value="$PROJECT_DIR$/src/thirtyvirus/multiversion/Version.java" />
+        <option value="$PROJECT_DIR$/plugin.yml" />
+        <option value="$PROJECT_DIR$/language.yml" />
+        <option value="$PROJECT_DIR$/config.yml" />
+        <option value="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" />
+        <option value="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" />
       </list>
     </option>
   </component>
@@ -170,9 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,37 +238,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Plugin_Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Plugin_Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thirtyvirus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inventory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,36 +294,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="block" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Plugin_Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Plugin_Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thirtyvirus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -366,10 +315,6 @@
               <option name="myItemId" value="thirtyvirus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multiversion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -384,16 +329,23 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4032258" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../imports/craftbukkit-suite/craftbukkit-1.9.4.jar!/" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -644,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563570786674</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Verifying that git is backing up every file">
+      <created>1566489587757</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566489587757</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -674,7 +633,7 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28497615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3064388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -697,7 +656,9 @@
     <MESSAGE value="Almost finished entire V1 of plugin, still need multisort and more sorting options." />
     <MESSAGE value="all features implemented except double chest support in 1.8. Need to find way to test if they are equal." />
     <MESSAGE value="Version 1.0.1, made the plugin work 100% in 1.8 - 1.14." />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0.1, made the plugin work 100% in 1.8 - 1.14." />
+    <MESSAGE value="Verifying that git is backing up every file" />
+    <MESSAGE value="updated a few things after find ing flaws in template making swapperplus" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated a few things after find ing flaws in template making swapperplus" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -710,13 +671,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thirtyvirus/template/events/inventory/InventoryClick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -738,8 +692,6 @@
           <caret line="71" column="10" lean-forward="false" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
           <folding>
             <element signature="method#onDisable#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerCommands#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerEvents#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadConfiguration#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadLangFile#0;class#TemplatePlugin#0" expanded="false" />
           </folding>
@@ -774,8 +726,6 @@
           <caret line="71" column="10" lean-forward="false" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
           <folding>
             <element signature="method#onDisable#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerCommands#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerEvents#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadConfiguration#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadLangFile#0;class#TemplatePlugin#0" expanded="false" />
           </folding>
@@ -810,8 +760,6 @@
           <caret line="71" column="10" lean-forward="false" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
           <folding>
             <element signature="method#onDisable#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerCommands#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerEvents#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadConfiguration#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadLangFile#0;class#TemplatePlugin#0" expanded="false" />
           </folding>
@@ -846,8 +794,6 @@
           <caret line="71" column="10" lean-forward="false" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
           <folding>
             <element signature="method#onDisable#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerCommands#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerEvents#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadConfiguration#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadLangFile#0;class#TemplatePlugin#0" expanded="false" />
           </folding>
@@ -875,8 +821,6 @@
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
             <element signature="method#onDisable#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerCommands#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerEvents#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadConfiguration#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadLangFile#0;class#TemplatePlugin#0" expanded="false" />
           </folding>
@@ -896,8 +840,6 @@
           <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
             <element signature="method#onDisable#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerCommands#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerEvents#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadConfiguration#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadLangFile#0;class#TemplatePlugin#0" expanded="false" />
           </folding>
@@ -919,13 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="50" column="121" lean-forward="true" selection-start-line="50" selection-start-column="121" selection-end-line="50" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/BookUtil_1_9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -958,20 +893,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thirtyvirus/template/helpers/ItemComparator.java" />
-    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/template/events/chat/TabComplete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thirtyvirus/template/events/inventory/InventoryClick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -993,31 +914,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/language.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/Sound.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2970">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/BookUtil_1_14_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="52" column="47" lean-forward="false" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/template/events/chat/TabComplete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/Version.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/BookUtil_1_9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/API.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1027,39 +970,43 @@
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="method#onDisable#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerCommands#0;class#TemplatePlugin#0" expanded="false" />
-            <element signature="method#registerEvents#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadConfiguration#0;class#TemplatePlugin#0" expanded="false" />
             <element signature="method#loadLangFile#0;class#TemplatePlugin#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/BookUtil_1_14_4.java">
+    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/API.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/multiversion/Version.java">
+    <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <element signature="method#getIndex#0;class#Version#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,7 +1065,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Simple_Sorting</last-edited>
+          <last-edited>Plugin_Template</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1142,7 +1089,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>craftbukkit-1.8.81</last-edited>
+          <last-edited>craftbukkit-1.9.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

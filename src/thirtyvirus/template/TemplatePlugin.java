@@ -46,6 +46,16 @@ public class TemplatePlugin extends JavaPlugin {
 
         // posts confirmation in chat
         getLogger().info(getDescription().getName() + " V: " + getDescription().getVersion() + " has been enabled");
+
+        // example scheduled task
+        //if (autoPurge){
+        //    Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
+        //        public void run() {
+        //            if (debug) Bukkit.getLogger().info("Automatically Purged " + Utilities.purge(shops, consolePrefix, debug, purgeAge) + " empty shops that haven't been active in the past " + purgeAge + " hour(s).");
+        //            if (!debug) Utilities.purge(shops, consolePrefix, debug, purgeAge);
+        //        }
+        //    }, 20 * 60 * 60, 20 * 60 * 60);
+        //}
     }
 
     public void onDisable(){

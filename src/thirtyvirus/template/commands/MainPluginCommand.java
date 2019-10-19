@@ -69,7 +69,7 @@ public class MainPluginCommand implements CommandExecutor{
         sender.sendMessage("");
         sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.RESET + ChatColor.RED + "" + ChatColor.BOLD + "You" + ChatColor.WHITE + ChatColor.BOLD + "Tube" + ChatColor.GREEN + " - https://youtube.com/thirtyvirus");
         sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.RESET + ChatColor.DARK_AQUA + "" + ChatColor.BOLD + "Twitter" + ChatColor.GREEN + " - https://twitter.com/Thirtyvirus");
-        sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.RESET + ChatColor.GOLD + "" + ChatColor.BOLD + "SpigotMC" + ChatColor.GREEN + " - https://www.spigotmc.org/members/thirtyvirus.179587/");
+        sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.RESET + ChatColor.GOLD + "" + ChatColor.BOLD + "SpigotMC" + ChatColor.GREEN + " - https://spigotmc.org/members/179587/");
         sender.sendMessage(ChatColor.DARK_PURPLE + "------------------------------");
     }
 
@@ -78,7 +78,7 @@ public class MainPluginCommand implements CommandExecutor{
         sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GRAY + "/template help");
         sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GRAY + "/template info");
         sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GRAY + "/template tutorial");
-        sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GRAY + "/template cancel");
+        sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GRAY + "/template reload");
         sender.sendMessage(ChatColor.DARK_PURPLE + "------------------------------");
     }
 
