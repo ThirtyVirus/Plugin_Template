@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0ce5c15-c524-4ca8-b606-87a703923e5f" name="Default" comment="updated a few things after find ing flaws in template making swapperplus">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/API.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/BookUtil_1_14_4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/BookUtil_1_8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/BookUtil_1_9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/ReflectionUtils$DataType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/ReflectionUtils$PackageType.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/ReflectionUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/Sound.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/Version.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/multiversion/XMaterial.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/TemplatePlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/commands/MainPluginCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/events/block/BlockClick.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/events/chat/TabComplete.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/events/inventory/InventoryClick.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/helpers/ActionSound.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/helpers/MenuUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/helpers/Utilities$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/thirtyvirus/template/helpers/Utilities.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Plugin_Template/META-INF/MANIFEST.MF" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_14_2.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_8_81.xml" afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_9_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Simple_Sorting_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Simple_Sorting_jar.xml" />
+    <list default="true" id="e0ce5c15-c524-4ca8-b606-87a703923e5f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plugin_Template.iml" afterPath="$PROJECT_DIR$/Plugin_Template.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.yml" afterPath="$PROJECT_DIR$/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language.yml" afterPath="$PROJECT_DIR$/language.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.yml" afterPath="$PROJECT_DIR$/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPluginCommand.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainPluginCommand.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="67" column="111" lean-forward="true" selection-start-line="67" selection-start-column="111" selection-end-line="67" selection-end-column="111" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,14 +50,14 @@
       <file leaf-file-name="language.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/language.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+            <state relative-caret-position="68">
+              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -96,8 +70,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="51">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -151,10 +125,10 @@
         <option value="$PROJECT_DIR$/src/thirtyvirus/multiversion/API.java" />
         <option value="$PROJECT_DIR$/src/thirtyvirus/multiversion/Version.java" />
         <option value="$PROJECT_DIR$/plugin.yml" />
-        <option value="$PROJECT_DIR$/language.yml" />
-        <option value="$PROJECT_DIR$/config.yml" />
-        <option value="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" />
         <option value="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" />
+        <option value="$PROJECT_DIR$/config.yml" />
+        <option value="$PROJECT_DIR$/language.yml" />
+        <option value="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" />
       </list>
     </option>
   </component>
@@ -182,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -336,9 +311,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -603,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566489587757</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated a few things after find ing flaws in template making swapperplus">
+      <created>1571518614611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571518614611</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -633,7 +614,7 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969603" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3064388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31120828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -939,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,28 +956,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="51">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/language.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        <state relative-caret-position="68">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1007,6 +977,16 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="67" column="111" lean-forward="true" selection-start-line="67" selection-start-column="111" selection-end-line="67" selection-end-column="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
