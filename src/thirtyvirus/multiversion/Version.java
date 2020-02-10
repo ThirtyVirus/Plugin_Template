@@ -21,7 +21,7 @@ public enum Version {
 				return v1_14; } else { return v1_14_3; }
 
 		}
-		else if(Bukkit.getVersion().contains("1.13")) return v1_15;
+		else if(Bukkit.getVersion().contains("1.15")) return v1_15;
 		else return UNKNOWN;
 	}
 
