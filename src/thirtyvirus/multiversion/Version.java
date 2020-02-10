@@ -3,7 +3,7 @@ package thirtyvirus.multiversion;
 import org.bukkit.Bukkit;
 
 public enum Version {
-	UNKNOWN, v1_7, v1_8, v1_9, v1_10, v1_11, v1_12, v1_13, v1_14, v1_14_3;
+	UNKNOWN, v1_7, v1_8, v1_9, v1_10, v1_11, v1_12, v1_13, v1_14, v1_14_3, v1_15;
 
 	public static Version getVersion() {
 		if(Bukkit.getVersion().contains("1.7")) return v1_7;
@@ -21,6 +21,7 @@ public enum Version {
 				return v1_14; } else { return v1_14_3; }
 
 		}
+		else if(Bukkit.getVersion().contains("1.13")) return v1_15;
 		else return UNKNOWN;
 	}
 

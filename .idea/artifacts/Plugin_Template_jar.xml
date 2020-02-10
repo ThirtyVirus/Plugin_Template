@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="Simple_Sorting:jar">
+  <artifact type="jar" build-on-make="true" name="Plugin_Template:jar">
     <output-path>$PROJECT_DIR$/../../Test Server/plugins</output-path>
     <root id="archive" name="PluginTemplate.jar">
       <element id="module-output" name="Plugin_Template" />
