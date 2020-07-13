@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="craftbukkit suite">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.8.8.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.9.4.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.10.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.11.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.12.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.13.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.14.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.15.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.16.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.8.8.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.9.4.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.10.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.11.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.12.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.13.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.14.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.15.2.jar!/" />
+      <root url="jar://$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.16.1.jar!/" />
+    </SOURCES>
+  </library>
+</component>

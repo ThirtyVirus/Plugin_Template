@@ -11,6 +11,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.Plugin;
 import thirtyvirus.multiversion.Sound;
+import thirtyvirus.multiversion.Version;
 import thirtyvirus.multiversion.XMaterial;
 import thirtyvirus.template.TemplatePlugin;
 
@@ -87,6 +88,7 @@ public final class Utilities {
 
     // makes visible string invisible to player
     public static String convertToInvisibleString(String s) {
+        if (Version.getVersion().isBiggerThan(Version.v1_15)) return s; // HOTFIX to prevent invisible text being garbled by 1.16 changes
         String hidden = "";
         for (char c : s.toCharArray()) hidden += ChatColor.COLOR_CHAR + "" + c;
         return hidden;
@@ -94,6 +96,7 @@ public final class Utilities {
 
     // make invisible string visible to player
     public static String convertToVisibleString(String s) {
+        if (Version.getVersion().isBiggerThan(Version.v1_15)) return s; // HOTFIX to prevent invisible text being garbled by 1.16 changes
         String c = "";
         c = c + ChatColor.COLOR_CHAR;
         return s.replaceAll(c, "");
