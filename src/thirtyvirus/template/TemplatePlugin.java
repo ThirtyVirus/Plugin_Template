@@ -111,6 +111,14 @@ public class TemplatePlugin extends JavaPlugin {
         }
     }
 
+    // reload all plugin assets
+    public static void reload() {
+        getInstance().reloadConfig();
+        getInstance().loadConfiguration();
+        getInstance().loadLangFile();
+        Bukkit.getLogger().info("configuration, values, and language settings reloaded");
+    }
+
     // getters
     public String getPhrase(String key) {
         return phrases.get(key);
