@@ -19,9 +19,10 @@ import java.util.*;
 
 public class TemplatePlugin extends JavaPlugin {
 
-    // console and IO
+    // console and IO, instance
     private File langFile;
     private FileConfiguration langFileConfig;
+    private static TemplatePlugin instance;
 
     // chat messages
     private Map<String, String> phrases = new HashMap<String, String>();
@@ -34,6 +35,8 @@ public class TemplatePlugin extends JavaPlugin {
     public static boolean customSetting = false;
 
     public void onEnable(){
+        instance = this;
+
         // load config.yml (generate one if not there)
         loadConfiguration();
 
@@ -115,5 +118,5 @@ public class TemplatePlugin extends JavaPlugin {
     public String getVersion() {
         return getDescription().getVersion();
     }
-
+    public static TemplatePlugin getInstance() { return instance; }
 }

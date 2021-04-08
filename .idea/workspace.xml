@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0ce5c15-c524-4ca8-b606-87a703923e5f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Plugin_Template_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Plugin_Template_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_9_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_9_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugin_Template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin_Template.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/multiversion/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/multiversion/Version.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/Utilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Documents/Programming/Spigot/imports/craftbukkit-suite/craftbukkit-1.9.4.jar!/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4032258" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -270,14 +264,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated to 1.15" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="986" y="441" key="FileChooserDialogImpl" timestamp="1594664051325">
+    <state x="760" y="274" key="SettingsEditor" timestamp="1617065752067">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="986" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1594664051325" />
-    <state x="760" y="274" key="SettingsEditor" timestamp="1594664153367">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1594664153367" />
+    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1617065752067" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

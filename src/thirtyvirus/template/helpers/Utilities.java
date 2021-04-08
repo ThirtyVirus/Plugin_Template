@@ -1,6 +1,7 @@
 package thirtyvirus.template.helpers;
 
 import com.google.common.io.ByteStreams;
+import com.sun.org.apache.xalan.internal.xsltc.compiler.Template;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -102,24 +103,21 @@ public final class Utilities {
         return s.replaceAll(c, "");
     }
 
-    // send player a collection of error messages and play error noise
+    // warns player of something in plugin
     public static void warnPlayer(CommandSender sender, List<String> messages) {
-
-        if (sender instanceof Player) {
-            Player player = (Player) sender;
-            playSound(ActionSound.ERROR, player);
-        }
-
-        for (String message : messages) {
-            sender.sendMessage(TemplatePlugin.prefix + ChatColor.RESET + ChatColor.RED + message);
-        }
+        if (sender instanceof Player) { Player player = (Player) sender; playSound(ActionSound.ERROR, player); }
+        for (String message : messages) sender.sendMessage(TemplatePlugin.prefix + ChatColor.RESET + ChatColor.RED + message);
+    }
+    public static void warnPlayer(CommandSender sender, String message) {
+        warnPlayer(sender, Collections.singletonList(message));
     }
 
-    // send player a collection of messages
-    public static void informPlayer(CommandSender player, List<String> messages) {
-        for (String message : messages) {
-            player.sendMessage(TemplatePlugin.prefix + ChatColor.RESET + ChatColor.GRAY + message);
-        }
+    // informs player of something in plugin
+    public static void informPlayer(CommandSender sender, List<String> messages) {
+        for (String message : messages) sender.sendMessage(TemplatePlugin.prefix + ChatColor.RESET + ChatColor.GRAY + message);
+    }
+    public static void informPlayer(CommandSender sender, String message) {
+        informPlayer(sender, Collections.singletonList(message));
     }
 
     // return the block the player is looking at, ignoring transparent blocks
