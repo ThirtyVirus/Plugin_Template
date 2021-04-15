@@ -1,7 +1,6 @@
 package thirtyvirus.template.helpers;
 
 import com.google.common.io.ByteStreams;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Template;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -61,7 +60,7 @@ public final class Utilities {
 
     // convert a location to formatted string (world,x,y,z)
     public static String toLocString(Location location) {
-        if (location.equals(null)) return "";
+        if (location == null) return "";
         return location.getWorld().getName() + "," + (int)location.getX() + "," + (int)location.getY() + "," + (int)location.getZ();
     }
 
@@ -90,9 +89,9 @@ public final class Utilities {
     // makes visible string invisible to player
     public static String convertToInvisibleString(String s) {
         if (Version.getVersion().isBiggerThan(Version.v1_15)) return s; // HOTFIX to prevent invisible text being garbled by 1.16 changes
-        String hidden = "";
-        for (char c : s.toCharArray()) hidden += ChatColor.COLOR_CHAR + "" + c;
-        return hidden;
+        StringBuilder hidden = new StringBuilder();
+        for (char c : s.toCharArray()) hidden.append(ChatColor.COLOR_CHAR + "").append(c);
+        return hidden.toString();
     }
 
     // make invisible string visible to player

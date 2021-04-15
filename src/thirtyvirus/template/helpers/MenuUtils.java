@@ -13,9 +13,6 @@ import java.util.List;
 
 public class MenuUtils {
 
-    private TemplatePlugin main = null;
-    public MenuUtils(TemplatePlugin main) { this.main = main; }
-
     public static void tutorialMenu(Player player) {
         ItemStack book = new ItemStack(XMaterial.WRITTEN_BOOK.parseMaterial());
         BookMeta meta = (BookMeta) book.getItemMeta();

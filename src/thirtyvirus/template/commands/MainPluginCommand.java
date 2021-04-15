@@ -1,7 +1,6 @@
 package thirtyvirus.template.commands;
 
 import org.bukkit.ChatColor;
-import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -10,21 +9,14 @@ import thirtyvirus.template.TemplatePlugin;
 import thirtyvirus.template.helpers.MenuUtils;
 import thirtyvirus.template.helpers.Utilities;
 
-import java.util.Arrays;
-
-import static thirtyvirus.template.helpers.ActionSound.CLICK;
-
 public class MainPluginCommand implements CommandExecutor{
-
-    private TemplatePlugin main = null;
-    public MainPluginCommand(TemplatePlugin main) { this.main = main; }
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
         // verify that the user has proper permissions
         if (!sender.hasPermission("template.user")) {
-            Utilities.warnPlayer(sender, Arrays.asList(main.getPhrase("no-permissions-message")));
+            Utilities.warnPlayer(sender, TemplatePlugin.getPhrase("no-permissions-message"));
             return true;
         }
 
@@ -39,23 +31,23 @@ public class MainPluginCommand implements CommandExecutor{
                     break;
                 case "tutorial":
                     if (sender instanceof Player) MenuUtils.tutorialMenu((Player) sender);
-                    else Utilities.warnPlayer(sender, Arrays.asList(main.getPhrase("no-console-message")));
+                    else Utilities.warnPlayer(sender, TemplatePlugin.getPhrase("no-console-message"));
                     break;
 
                 // put plugin specific commands here
 
                 case "reload":
                     if (sender.hasPermission("template.admin")) reload(sender);
-                    else Utilities.warnPlayer(sender, Arrays.asList(main.getPhrase("no-permissions-message")));
+                    else Utilities.warnPlayer(sender, TemplatePlugin.getPhrase("no-permissions-message"));
                     break;
                 default:
-                    Utilities.warnPlayer(sender, Arrays.asList(main.getPhrase("not-a-command-message")));
+                    Utilities.warnPlayer(sender, TemplatePlugin.getPhrase("not-a-command-message"));
                     help(sender);
                     break;
             }
 
         } catch(Exception e) {
-            Utilities.warnPlayer(sender, Arrays.asList(main.getPhrase("formatting-error-message")));
+            Utilities.warnPlayer(sender, TemplatePlugin.getPhrase("formatting-error-message"));
         }
 
         return true;
@@ -63,7 +55,7 @@ public class MainPluginCommand implements CommandExecutor{
 
     private void info(CommandSender sender) {
         sender.sendMessage(TemplatePlugin.prefix + ChatColor.GRAY + "Plugin Info");
-        sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GREEN + "Version " + main.getVersion() + " - By ThirtyVirus");
+        sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GREEN + "Version " + TemplatePlugin.getInstance().getVersion() + " - By ThirtyVirus");
         sender.sendMessage("");
         sender.sendMessage(ChatColor.DARK_PURPLE + "- " + ChatColor.GREEN + "~The best plugin template ever!");
         sender.sendMessage("");
@@ -83,12 +75,11 @@ public class MainPluginCommand implements CommandExecutor{
     }
 
     private void reload(CommandSender sender) {
-        main.reloadConfig();
-        main.loadConfiguration();
+        TemplatePlugin.getInstance().reloadConfig();
+        TemplatePlugin.getInstance().loadConfiguration();
+        TemplatePlugin.getInstance().loadLangFile();
 
-        main.loadLangFile();
-
-        Utilities.informPlayer(sender, Arrays.asList("configuration, values, and language settings reloaded"));
+        Utilities.informPlayer(sender, "configuration, values, and language settings reloaded");
     }
 
 }

@@ -2,12 +2,9 @@ package thirtyvirus.template;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.block.Block;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
-import thirtyvirus.multiversion.XMaterial;
 import thirtyvirus.template.commands.MainPluginCommand;
 import thirtyvirus.template.events.block.BlockClick;
 import thirtyvirus.template.events.chat.TabComplete;
@@ -15,17 +12,15 @@ import thirtyvirus.template.events.inventory.InventoryClick;
 import thirtyvirus.template.helpers.Utilities;
 
 import java.io.File;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class TemplatePlugin extends JavaPlugin {
 
-    // console and IO, instance
-    private File langFile;
-    private FileConfiguration langFileConfig;
     private static TemplatePlugin instance;
 
     // chat messages
-    private Map<String, String> phrases = new HashMap<String, String>();
+    private static Map<String, String> phrases = new HashMap<>();
 
     // core settings
     public static String prefix = "&c&l[&5&lTemplatePlugin&c&l] &8&l"; // generally unchanged unless otherwise stated in config
@@ -34,7 +29,7 @@ public class TemplatePlugin extends JavaPlugin {
     // customizable settings
     public static boolean customSetting = false;
 
-    public void onEnable(){
+    public void onEnable() {
         instance = this;
 
         // load config.yml (generate one if not there)
@@ -61,20 +56,20 @@ public class TemplatePlugin extends JavaPlugin {
         //}
     }
 
-    public void onDisable(){
+    public void onDisable() {
         // posts exit message in chat
         getLogger().info(getDescription().getName() + " V: " + getDescription().getVersion() + " has been disabled");
     }
 
     private void registerCommands() {
-        getCommand("template").setExecutor(new MainPluginCommand(this));
+        getCommand("template").setExecutor(new MainPluginCommand());
 
         // set up tab completion
-        getCommand("template").setTabCompleter(new TabComplete(this));
+        getCommand("template").setTabCompleter(new TabComplete());
     }
     private void registerEvents() {
-        getServer().getPluginManager().registerEvents(new BlockClick(this), this);
-        getServer().getPluginManager().registerEvents(new InventoryClick(this), this);
+        getServer().getPluginManager().registerEvents(new BlockClick(), this);
+        getServer().getPluginManager().registerEvents(new InventoryClick(), this);
     }
 
     // load the config file and apply settings
@@ -99,8 +94,9 @@ public class TemplatePlugin extends JavaPlugin {
     public void loadLangFile() {
 
         // load language.yml (generate one if not there)
-        langFile = new File(getDataFolder(), "language.yml");
-        langFileConfig = new YamlConfiguration();
+        // console and IO, instance
+        File langFile = new File(getDataFolder(), "language.yml");
+        FileConfiguration langFileConfig = new YamlConfiguration();
         if (!langFile.exists()){ Utilities.loadResource(this, "language.yml"); }
 
         try { langFileConfig.load(langFile); }
@@ -120,11 +116,11 @@ public class TemplatePlugin extends JavaPlugin {
     }
 
     // getters
-    public String getPhrase(String key) {
+    public static String getPhrase(String key) {
         return phrases.get(key);
     }
+    public static TemplatePlugin getInstance() { return instance; }
     public String getVersion() {
         return getDescription().getVersion();
     }
-    public static TemplatePlugin getInstance() { return instance; }
 }

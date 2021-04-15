@@ -4,6 +4,12 @@
     <list default="true" id="e0ce5c15-c524-4ca8-b606-87a703923e5f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/TemplatePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/commands/MainPluginCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/events/block/BlockClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/events/block/BlockClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/events/chat/TabComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/events/chat/TabComplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/events/inventory/InventoryClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/events/inventory/InventoryClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/MenuUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/MenuUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thirtyvirus/template/helpers/Utilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
